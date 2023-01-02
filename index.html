@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Hướng dẫn tạo modal box</h2>
+
+        <p>click vào đây để mở</p>
+
+        <button id="myBtn">Đăng nhập</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <form action="#">
+
+                    <span class="close"><i class="fa-solid fa-x"></i></span>
+                    <h2>Form đăng nhập</h2>
+
+                    <div class="fomrgroup">
+                        <b>UserName:</b>
+                        <input type="text" name="username">
+                    </div>
+                    <div class="fomrgroup">
+                        <b>PassWord:</b>
+                        <input type="passWord" name="passWord">
+                    </div>
+                    <div class="fomrgroup">
+                        <button>Đăng nhập</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="scrip.js"></script>
+</body>
+
+</html>
